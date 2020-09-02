@@ -107,7 +107,7 @@ unsigned char find_minimum(unsigned char* array, unsigned int length);
  *
  * @return sorted array;
  */
-unsigned char* sort_array(unsigned char* array, unsigned int length);
+void sort_array(unsigned char* array, unsigned int length);
 
 
 
