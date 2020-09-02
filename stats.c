@@ -9,13 +9,16 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief contains the main function and the function definitions of the stats.h
+ * function prototypes.
  *
- * <Add Extended Description Here>
+ * The file contains the main() function and also provides the function definitions
+ * for the stats package outlined in stats.h. The main function will perform statistical 
+ * analysis on an array of char values and print the analysis to the screen.
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ * @author Del Ingvaldson
+ * @date 2020-09-02
  *
  */
 
@@ -41,3 +44,31 @@ void main() {
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char* array, unsigned int length) {
+
+}
+
+void print_array(unsigned char* array, unsigned int length) {
+
+}
+
+unsigned char find_median(unsigned char* array, unsigned int length) {
+
+}
+
+unsigned char find_mean(unsigned char* array, unsigned int length) {
+
+}
+
+unsigned char find_maximum(unsigned char* array, unsigned int length) {
+
+}
+
+unsigned char find_minimum(unsigned char* array, unsigned int length) {
+
+}
+
+unsigned char* sort_array(unsigned char* array, unsigned int length) {
+
+}
